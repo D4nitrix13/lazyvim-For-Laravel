@@ -18,7 +18,8 @@ return {
     "nvim-treesitter/nvim-treesitter-textobjects",
   },
   opts = {
-    ensure_installed = "all",
+    ensure_installed = { "php", "blade", "javascript", "html", "css", "json" },
+    -- ensure_installed = "all",
     auto_install = true,
     highlight = {
       enable = true,
